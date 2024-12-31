@@ -1,0 +1,239 @@
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('TTLakes-Medium.eot');
+    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+        url('TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TTLakes-Medium.woff2') format('woff2'),
+        url('TTLakes-Medium.woff') format('woff'),
+        url('TTLakes-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: 'TT Lakes';
+  margin: 0;
+  font-size: 18px;
+  background-color: #F8F8F8;
+}
+button {
+  border: none;
+  padding: 0;
+  background: none;
+}
+/** Хэдер */
+.top-menu {
+  min-width: 320px;
+  width: 100%;
+  height: 88px;
+  background-color: #ffffff;
+  justify-content: space-around;
+  border-bottom: 1px solid #D9FFF5;
+  justify-content: space-between;
+}
+.right-menu, .left-menu, .top-menu {
+  display: flex;
+
+}
+.top-menu__logo {
+  margin-left: 16px;
+  margin-right: auto;
+  Width:96.55px;
+Height:50.81px;
+margin-Top:18.59px;
+}
+.left-menu__button, .right-menu__button, .midle-menu__button {
+  Width:40px;
+Height:40px;
+margin-left:16px;
+}
+.left-menu__button {
+  margin-top:24px;
+}
+.midle-menu {
+  Height:40px;
+  margin-top:24px;
+  margin-right: 20px;
+}
+
+.right-menu {
+  Height:40px;
+  margin-top:24px;
+  border-left: 2px solid #EAEAEA;
+  margin-right:16px;
+}
+/** Хэдер конец*/
+/** мэйн начало*/
+
+.main-article__title {
+  width: 304px;
+  height: 40px;
+  margin-top: 112px;
+  border-left: 4px solid #41F6D7;
+
+}
+.main-article__title > h1 {
+  margin-left: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1.7em;
+}
+.scroll-menu {
+  height: 50px;
+  margin-top: 24px;
+  margin-left: 16px;
+  overflow-y: hidden;
+  background-color: #F8F8F8;
+}
+.scroll-menu__items  {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+
+}
+.scroll-menu__items > a{
+  color: #7E7E82;
+}
+.scroll-menu__item  {
+
+  font-size: 16px;
+  color: #424242;
+  width: auto;
+  padding: 5px 8px 5px 8px;
+  margin-left: 5px;
+
+}
+.scroll-menu__item_active {
+  font-size: 16px;
+  border: 2px solid #B8FFEC;
+  border-radius: 6px;
+  color: #424242;
+  width: auto;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #Fff;
+}
+.main-article > p {
+  margin-left: 16px;
+}
+.main-article__reed-more{
+  width: 134px;
+  height: 24px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+.main-article__reed-more > svg {
+  width: 24px;
+  height: 24px;
+
+}
+.main-article__reed-more > span {
+  font-size: 16px;
+  margin-left: 6px;
+
+}
+.CPS-photo {
+  background-image: url("../img/CSP.png");
+  background-size:100% 100%;
+  width: 100%;
+  height: 230px;
+  margin-top: 22px;
+}
+/** мэйн конец*/
+/** футер начало*/
+footer {
+  width: 100%;
+  height: 50px;
+}
+/** футер конец*/
+@media (min-width: 768px) {
+  .midle-menu {
+    display: block;
+  }
+  .left-menu__button {
+    border-right: 2px solid #EAEAEA;
+    padding-right: 16px;
+  }
+  .main-article_media {
+    display: flex;
+    margin: 32px 24px 0 24px;
+  }
+
+  .main-article__content {
+    width: 312px;
+  }
+
+
+  .CPS-photo {
+    margin-left: 48px;
+    width: 50%;
+  }
+  .main-article__content_media768 {
+    display: inline;
+  }
+  .main-article__reed-more{
+
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1120px) {
+  .header-main {
+    display: none;
+  }
+.main-article__title {
+  display: flex;
+  margin-top: 42px;
+  height: 40px;
+  width: 100%;
+}
+.main-article__button {
+  display: flex;
+  height: 40px;
+  margin-left: auto;
+  margin-right: 24px;
+}
+.main-article__button > span {
+
+  font-size: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 5px;
+}
+.main-article__button > button{
+  margin-right: 40px;
+}
+.scroll-menu {
+  height: 100px;
+}
+.scroll-menu__items{
+  display: flex;
+  margin-left: 33px;
+  overflow-x: hidden;
+  margin-right: 34px;
+  flex-wrap: wrap;
+}
+.scroll-menu__item {
+  margin-left: 20px;
+  display: block;
+}
+.main-article__content {
+  margin-left: 33px;
+  font-size: 14px;
+  width: 50%;
+  color: #1B1C21;
+}
+.main-article__content_media1120{
+  display: inline;
+
+}
+.main-article__reed-more {
+  margin-left: 0;
+}
+}
