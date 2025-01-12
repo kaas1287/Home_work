@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('TTLakes-Medium.eot');
+    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+        url('TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TTLakes-Medium.woff2') format('woff2'),
+        url('TTLakes-Medium.woff') format('woff'),
+        url('TTLakes-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: 'TT Lakes';
+  margin: 0;
+  font-size: 18px;
+
+}
+button {
+  border: none;
+  padding: 0;
+  background: none;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+/** Хэдер */
+.header-main {
+  width: 296px;
+  display: flex;
+  padding-right: 24px;
+
+  background-color: #ffffff;
+
+  justify-content: space-between;
+}
+.right-menu, .left-menu, .top-menu {
+  display: flex;
+
+}
+
+.top-menu__logo {
+  margin-left: 16px;
+  margin-right: auto;
+  Width:96.55px;
+Height:50.81px;
+margin-Top:18.59px;
+}
+.left-menu__button, .right-menu__button, .midle-menu__button {
+  Width:40px;
+Height:40px;
+margin-left:16px;
+background-color: #FF3E79;
+border-radius: 50%;
+margin-top:24px;
+}
+
+.left-menu__button_close {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/close.svg");
+  background-size: 16px;;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.left-menu__button_search {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/search.svg");
+  background-size: 16px;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+/** Хэдер конец
+    Навигационное меню начало
+*/
+.menu {
+  margin-top: 46px;
+}
+.menu__list > li {
+  margin-top: 22px;
+
+  padding-left: 24px;
+  font-size: 16px;
+
+}
+.menu__list_active {
+  border-left: 2px solid #41F6D7;
+  color: #7E7E82;
+}
+/**
+    Навигационное меню конец
+    футер начало
+*/
+.midle-menu {
+  margin-top: 268px;
+  display: flex;
+}
+.midle-menu__button_phone {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/phone.svg");
+  background-size: 16px;;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.midle-menu__button_mesage {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/mesage.svg");
+  background-size: 16px;;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.midle-menu__button_profile {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/profile.svg");
+  background-size: 16px;;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.footer-main__adress, .footer-main__leng {
+  margin-left: 16px;
+}
+.footer-main__adress > p:first-child {
+  font-size: 16px;
+}
+.footer-main__adress > p:last-child {
+ font-size: 24px;
+ font-weight: bold;
+}
+.footer-main__leng_active {
+  color: #7E7E82;
+}
