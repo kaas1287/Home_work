@@ -27,6 +27,11 @@ ul {
   list-style: none;
   padding-left: 0px;
 }
+.shadow {
+  width: 320px;
+  height: 100%;
+  box-shadow: 16px 0 52px #0E185033;
+}
 /** Хэдер */
 .header-main {
   width: 296px;
@@ -88,10 +93,16 @@ margin-top:24px;
   font-size: 16px;
 
 }
+.menu__list > li:hover {
+animation-name: menu_batton;
+animation-duration: 1s;
+
+}
 .menu__list_active {
   border-left: 2px solid #41F6D7;
   color: #7E7E82;
 }
+
 /**
     Навигационное меню конец
     футер начало
@@ -136,4 +147,12 @@ margin-top:24px;
 }
 .footer-main__leng_active {
   color: #7E7E82;
+}
+.footer-main__leng {
+  padding-bottom: 24px;
+}
+@keyframes menu_batton {
+  from { transform: scale(1.2)}
+  
+
 }
