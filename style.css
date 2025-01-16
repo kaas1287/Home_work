@@ -114,13 +114,13 @@ margin-left:16px;
   margin-left: 5px;
 
 }
-.scroll-menu__item_active {
+.scroll-menu__item:hover {
   font-size: 16px;
   border: 2px solid #B8FFEC;
   border-radius: 6px;
   color: #424242;
-  width: auto;
-  padding: 5px;
+
+
   text-decoration: none;
   background-color: #Fff;
 }
@@ -137,10 +137,10 @@ margin-left:16px;
 }
 .main-article__reed-more > button{
   background-image: url("img/reed_more.svg") ;
-  width: 24px;
+  width: 134px;
   height: 24px;
   background-size: 10px;;
-  background-position: center center;
+  background-position: left center;
   background-repeat: no-repeat;
 }
 .main-article__reed-more > svg {
@@ -272,4 +272,3 @@ footer {
   margin-left: 0;
 }
 }
-
